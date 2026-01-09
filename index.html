@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ricy — Portfolio</title>
+    <link rel="icon" type="image/x-icon" href="src/img/favicon-icon.png">
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <link href="https://fonts.googleapis.com/css2?family=Sora:wght@100;300;400;600;800&display=swap" rel="stylesheet">
@@ -51,7 +52,7 @@
         <a href="#" class="text-2xl font-800 tracking-tighter uppercase cursor-hover">RICY<span class="text-zinc-300">.</span></a>
         <div class="hidden md:flex space-x-12 text-[11px] font-800 uppercase tracking-widest">
             <a href="#work" class="nav-link cursor-hover">Work</a>
-            <a href="#about" class="nav-link cursor-hover">About mE</a>
+            <a href="#about" class="nav-link cursor-hover">About Me</a>
             <a href="#contact" class="nav-link cursor-hover">Contact</a>
         </div>
         <div class="md:hidden text-xl"><i class="fa-solid fa-bars-staggered"></i></div>
@@ -124,7 +125,65 @@
         </div>
     </section>
 
-    <!-- Footer - Contact -->
+    <!-- Contact -->
+
+    <section id="message" class="py-40 px-6 lg:px-12 bg-white">
+        <div class="reveal space-y-2">
+            <h1 class="text-4xl lg:text-4xl font-600 text-gray-600 font-bold font-serif antialiased italic ">Send me a message</h1>
+            <p class="lg:text-gray-600 text-2xl font-sans">Have a project message in mind or just want to sa hi? Send me <br> a message using the form below.</p>
+        </div>
+        <!-- Form -->
+        <div class="min-h-screen bg-white flex items-center justify-center p-6">
+            <div class="w-full max-w-md bg-white">
+                <div class="mb-12">
+                    <h2 class="text-4xl font-bold text-black tracking-tight mb-2">Message.</h2>
+                        <div class="h-1 w-12 bg-black"></div> 
+                </div>
+
+    <form action="#" class="space-y-">
+      <div class="relative group">
+        <input 
+          type="text" 
+          id="name"
+          placeholder="Full Name" 
+          class="w-full px-0 py-3 bg-transparent border-b border-gray-200 text-black focus:outline-none focus:border-black transition-colors duration-300 placeholder:text-gray-400 placeholder:font-light">
+      </div>
+
+      <div class="relative group">
+        <input 
+          type="email" 
+          id="email"
+          placeholder="Email Address" 
+          class="w-full px-0 py-3 bg-transparent border-b border-gray-200 text-black focus:outline-none focus:border-black transition-colors duration-300 placeholder:text-gray-400 placeholder:font-light">
+      </div>
+
+      <div class="relative group">
+        <textarea 
+          id="message"
+          rows="3" 
+          placeholder="Your Message" 
+          class="w-full px-0 py-3 bg-transparent border-b border-gray-200 text-black focus:outline-none focus:border-black transition-colors duration-300 placeholder:text-gray-400 placeholder:font-light resize-none"
+        ></textarea>
+      </div>
+
+      <div class="pt-6">
+        <button 
+          type="submit" 
+          class="group relative inline-flex items-center justify-center px-10 py-4 font-bold text-white transition-all duration-200 bg-black border-2 border-black hover:bg-white hover:text-black rounded-full">
+          <span class="relative">Send Message</span>
+        </button>
+      </div>
+    </form>
+    
+    <div class="mt-16 pt-8 border-t border-gray-50 flex justify-between items-center text-[10px] uppercase tracking-[0.2em] text-gray-400">
+      <span>Available for work</span>
+      <span>2026 © Portfolio</span>
+    </div>
+  </div>
+</div>
+    </section>
+
+    <!--  Footer  -->
     <footer id="contact" class="py-32 px-6 lg:px-12 text-center bg-zinc-50">
         <h2 class="text-5xl lg:text-8xl font-800 uppercase tracking-tighter italic mb-12 reveal cursor-hover">Let's talk</h2>
         <div class="flex flex-wrap justify-center gap-10 text-[11px] font-800 uppercase tracking-[0.3em] reveal">
